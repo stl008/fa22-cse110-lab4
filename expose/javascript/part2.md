@@ -56,3 +56,10 @@
     
 15) == tries to convert the two sides of the comparison to the same type before checking if they are equal, while === directly checks if the two sides are equal.
 17) The function would return [2,4,6]. Since we do modifyArray([1,2,3], doSomething), and the function doSomething just doubles an number, the function modifyArray will iterate through the array we input, pass each entry through the function doSomething, and add the result to an array that the function returns at the end. Thus, we will bet an array with entries that are twice the values of the entries of the original array.
+19) 1
+
+    4
+    
+    3
+    
+    2
