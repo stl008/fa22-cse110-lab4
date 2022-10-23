@@ -20,15 +20,38 @@
     d) student['Favorite Teacher'].name
     
     e) student.courseLoad[0]
+    
 13) Q13
+    
     a) '3' + 2 = '32', because 2 is converted to a string.
+    
     b) '3' - 2 = 1, because '3' is converted to an integer.
+    
     c) 3 + null = 0, because null is treated as 0.
+    
     d) '3' + null = '3null', because null is converted to a string.
+    
     e) true + 3 = 4, because true is treated as 1.
+    
     f) false + null = 0, because both false and null are treated as 0.
+    
     g) '3' + undefined = '3undefined', because undefined is converted to a string.
+    
     h) '3' - undefined = NaN, because undefined cannot be converted to an integer.
+    
 14) Q14
-    a)
-15) 
+
+    a) '2' > 1 = true, because '2' is converted to 2, which is greater than 1.
+    
+    b) '2' < '12' = false, because '1' is less than '2' in lexicographical ordering.
+    
+    c) 2 == '2' = true, because '2' is converted to 2, which is what is on the left side.
+    
+    d) 2 === '2' = false, because the two sides are different types.
+    
+    e) true == 2 = false, because true is converted to the integer 1, which is not equal to 2.
+    
+    f) true === Boolean(2) = true, because Boolean(2) = true, so both sides are the same.
+    
+    
+15) == tries to convert the two sides of the comparison to the same type before checking if they are equal, while === directly checks if the two sides are equal.
