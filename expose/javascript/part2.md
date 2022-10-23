@@ -10,10 +10,15 @@
 10) The code will print "3", because that is the length of the input array.
 11) The function will return the array of discounted prices, because the new prices were added to the array in the function and the variable was unchanged.
 12) Q12
+    
     a) student.name
+    
     b) student['Grad Year']
+    
     c) student.greeting();
+    
     d) student['Favorite Teacher'].name
+    
     e) student.courseLoad[0]
 13) Q13
     a) '3' + 2 = '32', because 2 is converted to a string.
